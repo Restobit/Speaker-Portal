@@ -1,0 +1,19 @@
+.footer-row{
+    display: flex;
+    justify-content: space-evenly;
+    p{
+        padding: 0.5rem;
+        font-size: fontsize(small-font);
+        font-family: Arial, Helvetica, sans-serif;
+        a{
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            text-decoration: none;
+            &:nth-child(even){
+                border-left: 1px solid rgba(128, 128, 128, 0.5);
+                border-right: 1px solid rgba(128, 128, 128, 0.5);
+            }
+        }
+    }
+    
+}

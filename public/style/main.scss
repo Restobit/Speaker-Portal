@@ -1,0 +1,67 @@
+
+@import './variables';
+@import './header';
+@import './login';
+@import './footer';
+
+html,body{
+    margin: 0;
+    min-height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+*a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2rem;
+    color: color(primary);
+}
+
+main{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-items-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 438px;
+    height: 360px;
+    background-color: color(list-items-background);
+}
+
+#purple-column{
+    td{
+        @include ColoredColumns();
+        background-color: color(primary);
+    }
+    
+}
+
+#magenta-column{
+   td{
+        @include ColoredColumns();
+        background-color: color(secondary);
+   }
+}
+
+#save-position-btn{
+    width: 140px;
+    height: 44px;
+    margin-top: 2em;
+    background-color: color(secondary);
+    font-family: Arial, Helvetica, sans-serif;
+    color: color(form-primary);
+    font-size: fontsize(submit-button);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}

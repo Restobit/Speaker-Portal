@@ -1,0 +1,44 @@
+
+$desktop: 1280px;
+$border: 1px solid rgba(0, 0, 0, 0.075);
+
+$colors: (
+    primary: #553483,
+    primary-darker:#4f2d7f,
+    secondary: #ec008c,
+    form-primary:white,
+    list-items-background:#ededed
+
+);
+
+$fontsizes:(
+    big:29.3px, // 22pt
+    medium-font:20px, //15pt
+    smedium:17.3px, //13pt
+    small-font:16px, //12pt
+    submit-button:24px, //18pt
+
+);
+
+
+@function color($color-name){
+    @return map-get($colors,$color-name);
+}
+
+
+@function fontsize($font-size){
+    @return map-get($fontsizes,$font-size);
+}
+
+@mixin ColoredColumns{
+    width: 200px;
+    height: 44px;
+    margin: 1em;
+    cursor: grabbing;
+    font-size: fontsize(medium-font);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: color(form-primary);
+}
