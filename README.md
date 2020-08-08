@@ -4,7 +4,7 @@ This project was created by Restobit.
 
 ## Install
 
-Run your favourite Web server and create a direcetory in your web folder which name must be need `speakerportal` because i'm hard coded the project url. (I will fix it soon)
+Run your favourite Web server and create a directory in your web folder which name has whatever you like.
 
 ## Database
 
@@ -14,4 +14,4 @@ Thats all. Now, you created a dabase.
 
 ## Website
 
-If you did everything right you can check the website on `localhost/speakerportal/`
+If you did everything right you can check the website on `localhost/{yourFolderName}/`
