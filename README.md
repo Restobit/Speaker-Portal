@@ -4,7 +4,7 @@ This project was created by Restobit.
 
 ## Install
 
-Run your favourite Web server and create a direcetory in your web folder which name must be need `speakerportal` because i'm hard coded the project url. (I will fix is soon)
+Run your favourite Web server and create a direcetory in your web folder which name must be need `speakerportal` because i'm hard coded the project url. (I will fix it soon)
 
 ## Database
 
